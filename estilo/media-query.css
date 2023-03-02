@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width:360px) and (max-width:915px) {
+
+
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: scroll;
+
+    }
+
+
+    .container {
+        padding-top: 25px;
+    }
+
+    #central-img {
+        margin-left: 1.5em;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    #logo {
+        margin-bottom: 70px;
+        margin-left: 1.5em;
+        width: 50%;
+    }
+
+    h1 {
+        margin: auto;
+        line-height: 35px;
+        text-align: center;
+        width: 85vw;
+        font-size: 1.7em;
+        margin-bottom: 20px;
+    }
+
+
+    #text {
+        width: 96vw;
+        text-align: center;
+    }
+
+    button {
+        width: 250px;
+        height: 60px;
+        margin: auto;
+    }
+}

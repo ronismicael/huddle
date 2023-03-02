@@ -9,7 +9,7 @@
 
 body {
     background-color: hsl(257, 40%, 49%);
-    background-image: url(./images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; 
@@ -86,3 +86,4 @@ button:hover{
     background-color:hsl(300, 69%, 71%) ;
     color: white;
 }
+
